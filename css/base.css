@@ -1,28 +1,23 @@
-body {
-    background: #ccc;
-  }
-  
-  li {
-    font-size: 1.5em;
-  }
-
-  img {
-    width: 200px;
+body, main {
+  margin: auto; 
+  text-align: center;
 }
 
-  
-  /* ul { 
-    visibility: hidden; 
-  } */
-  
-  
-  /* ul.on {
-    visibility: visible;
-    background-color: aqua;
-  } */
-  
-  
-  /* li.person-template {
-    display:none;
-  } */
-  
+h1 {
+  font-size: xxx-large;
+  margin: 5% 0;
+}
+
+select {
+  width: 50%;
+  height: 45px;
+  font-size: large;
+  max-width: 200px;
+}
+
+
+@media (min-width:768px) {
+  h1 {
+    font-size: xxx-large;
+  }
+}
