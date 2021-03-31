@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two');
 
 body{
@@ -11,5 +12,30 @@ main{
   margin: auto; 
   font-family: 'Shadows Into Light Two', cursive;
   text-align: center;
+}
+
+=======
+body, main {
+  margin: auto; 
+  text-align: center;
+}
+
+h1 {
+  font-size: xxx-large;
+  margin: 5% 0;
+}
+
+select {
+  width: 50%;
+  height: 45px;
+  font-size: large;
+  max-width: 200px;
+}
+
+
+@media (min-width:768px) {
+  h1 {
+    font-size: xxx-large;
+  }
 }
 
