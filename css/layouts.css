@@ -1,50 +1,7 @@
-.animal { 
-    margin: 10px;
-    padding: 30px;
-    align-content: center;
-    width: 300px;
-    max-width: 400px;
-  
-  }
-  
-  #animal-wrap { 
-    padding: 0 6%; 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
-  #buttons{
-    width: 30%; 
-    display: inline-flex;
-    /* font-family: 'Shadows Into Light Two', cursive; */
-    justify-content: center; 
-    flex-direction: column  
-  }
-  
-  #sort{
-    margin: 3%; 
-  }
-  
-  .navButtons {
-    margin: 3%;
-    width: 20%;
-    max-width: 100px;
-    height: 50px;
-    font-size: large;
-    border-radius: 10%; 
-    background-color: rgb(192, 219, 219); 
-  }
-  
-  .sortBtns{
-   width: 3%; 
-   margin: 3%; 
-   margin-top: 5%; 
-   
-  }
-  
-  @media (min-width:768px) {
-    #animal-wrap {
-      max-width: 1000px;
-      justify-content: space-evenly;
+ 
+@media (min-width:768px) {
+    main {
+        max-width: 1000px;
+        justify-content: space-evenly;
     }
-  }
+}

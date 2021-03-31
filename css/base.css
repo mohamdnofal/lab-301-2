@@ -1,9 +1,16 @@
-body, main {
-  margin: auto; 
+* {
+  display: flex;
+  justify-content:space-between;
+  margin: auto;
+  flex-direction: column;
   text-align: center;
+  text-transform: capitalize;
 }
 
 h1 {
+  display: none;
+}
+title {
   font-size: xxx-large;
   margin: 5% 0;
 }
@@ -20,4 +27,34 @@ select {
   h1 {
     font-size: xxx-large;
   }
+}
+
+script#photo-template {
+  display: none;
+}
+
+script {
+  display: none;
+}
+
+footer{
+  padding-top: 20px;
+}
+p{
+  padding: 5px;
+}
+
+h2 {
+  padding: 5px;
+}
+button#sort {
+  margin-top: 20px;
+}
+
+button#navigation {
+  margin-bottom: 10px;
+}
+
+select#keywordSelect {
+  margin-bottom: 20px;
 }
