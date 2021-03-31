@@ -1,28 +1,15 @@
-body {
-    background: #ccc;
-  }
-  
-  li {
-    font-size: 1.5em;
-  }
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two');
 
-  img {
-    width: 200px;
+body{
+  width: 90%;
+  margin: auto; 
+  font-family: 'Shadows Into Light Two', cursive;
+  text-align: center;
 }
 
-  
-  /* ul { 
-    visibility: hidden; 
-  } */
-  
-  
-  /* ul.on {
-    visibility: visible;
-    background-color: aqua;
-  } */
-  
-  
-  /* li.person-template {
-    display:none;
-  } */
-  
+main{
+  margin: auto; 
+  font-family: 'Shadows Into Light Two', cursive;
+  text-align: center;
+}
+
