@@ -1,3 +1,22 @@
+
+h2 {
+    padding: 20px;
+}
+
+p {
+    padding: 20px;
+}
+
+h1 {
+    font-size: xxx-large;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 40%;
+}
+=======
 .animal { 
     margin: 10px;
     padding: 30px;
@@ -48,3 +67,4 @@
       justify-content: space-evenly;
     }
   }
+
